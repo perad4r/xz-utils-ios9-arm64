@@ -13,8 +13,9 @@ built to work on older **64-bit** iOS 9 jailbroken devices (iPhone 5S, iPhone 6,
 
 ## Download & install
 
-- on release page
+- download on release page or build from source
 - and remember to remove the original xz or xz-utils package first, if you can't use your package manager you could try using a shell/terminal to run `dpkg --purge <package_name>`
+- install the `.deb` file
 
 ## Build on macOS
 
