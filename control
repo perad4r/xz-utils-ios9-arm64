@@ -1,0 +1,16 @@
+Package: xz
+Version: 5.4.4
+Architecture: iphoneos-arm
+Author: Lasse Collin <lasse.collin@tukaani.org>
+Maintainer: perad4r
+Provides: xz-utils, lzma
+Replaces: lzma, xz-utils
+Conflicts: lzma, xz-utils
+Section: Utilities
+Priority: optional
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utility for 64-bit iOS 9
+ General-purpose data compression software with high compression ratio.
+ Upstream: Tukaani Project (Lasse Collin).
+ Compiled without clock_gettime dependency to prevent dyld crashes.
+ Don't install this if you are on a 32-bit device.
