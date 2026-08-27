@@ -11,9 +11,10 @@ built to work on older **64-bit** iOS 9 jailbroken devices (iPhone 5S, iPhone 6,
 
 `xz` from repo `apt.bingner.com` did run on 64-bit but returns `dyld: Symbol not found: _clock_gettime` error while installing packages that needs lzma to decompress.
 
-## Download
+## Download & install
 
-release page
+- on release page
+- and remember to remove the original xz or xz-utils package first, if you can't use your package manager you could try using a shell/terminal to run `dpkg --purge <package_name>`
 
 ## Build on macOS
 
